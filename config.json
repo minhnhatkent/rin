@@ -1,3 +1,4 @@
 {
-  "host": "rin.noraesae.net"
+  "host": "rin.noraesae.net",
+  "repo": "git@github.com:noraesae/rin"
 }
