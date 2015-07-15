@@ -27,4 +27,16 @@
   window.addEventListener('hashchange', main);
   window.addEventListener('load', main);
   main();
+
+  function initialize() {
+    var inputs = [].slice.apply(document.getElementsByTagName('input'));
+    inputs.forEach(function (input) {
+      var base = location.href.split('#')[0];
+      input.value = base + '#' + input.value;
+      input.addEventListener('click', function (e) {
+        e.target.setSelectionRange(0, e.target.value.length)
+      });
+    });
+  }
+  window.addEventListener('load', initialize);
 })();

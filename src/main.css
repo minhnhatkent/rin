@@ -31,6 +31,13 @@ ul li span.description {
   color: #AAAAAA;
   margin-left: 10px;
 }
+ul li input {
+  font-family: 'Source Code Pro', Sans-Serif;
+  font-weight: 300;
+  width: 400px;
+  margin-top: 5px;
+  padding: 2px;
+}
 
 footer p {
   font-size: 13px;
