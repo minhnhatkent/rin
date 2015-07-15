@@ -11,6 +11,6 @@ html
       each item in urls
         li
           div
-            a.name(href='##{item.name}') ##{item.name}
+            a.hash(href='##{item.hash}') ##{item.hash}
             a.url(href='#{item.url}')= item.url
           div.description= item.description

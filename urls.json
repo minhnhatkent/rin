@@ -1,11 +1,11 @@
 [
   {
-    "name": "gg",
+    "hash": "gg",
     "description": "Google",
     "url": "https://google.com"
   },
   {
-    "name": "amz",
+    "hash": "amz",
     "description": "Amazon",
     "url": "https://amazon.com"
   }
