@@ -3,9 +3,13 @@ A personal URL shortener using GitHub Pages
 
 ## Demo
 
-http://rin.noraesae.net  
-http://rin.noraesae.net/#gg  
-http://rin.noraesae.net/#amz
+http://noraesae.github.io/rin/  
+http://noraesae.github.io/rin/#gg  
+http://noraesae.github.io/rin/#amz
+
+Or my personal one,
+
+http://rin.noraesae.net
 
 ## How to use
 
@@ -26,6 +30,9 @@ An example `config.json` is like below.
 ```
 
 The `host` field is optional if you don't want to use a custom domain.
+If you'd like to use a custom domain, please don't forget to set the CNAME
+of the domain to `username.github.io`. For the detail, please refer to [this
+documentation](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/).
 
 To build and publish, run following commands.
 
