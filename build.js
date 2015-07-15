@@ -22,3 +22,7 @@ fs.writeFileSync(rel('build/index.html'), fn({urls: urls}));
 var script = fs.readFileSync(rel('src/main.js')).toString();
 script = script.replace(';//%%URLS%%', '= ' + JSON.stringify(urls) + ';');
 fs.writeFileSync(rel('build/build.js'), script);
+
+// build css
+var style = fs.readFileSync(rel('src/main.css')).toString();
+fs.writeFileSync(rel('build/build.css'), style);

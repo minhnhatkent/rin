@@ -12,5 +12,9 @@ html
         li
           div
             a.hash(href='##{item.hash}') ##{item.hash}
+            span.description= item.description
+          div
             a.url(href='#{item.url}')= item.url
-          div.description= item.description
+    footer
+      p crafted by <a href='http://noraesae.net'>noraesae</a>
+      p &lt;/&gt; available on <a href='https://github.com/noraesae/rin'>github</a>
