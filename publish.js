@@ -13,7 +13,9 @@ function rel(relPath) {
 require('./build');
 
 // set CNAME
-fs.writeFileSync(rel('build/CNAME'), config.host);
+if (config.host) {
+  fs.writeFileSync(rel('build/CNAME'), config.host);
+}
 
 [
   'git init',
