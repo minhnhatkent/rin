@@ -1,4 +1,6 @@
 (function () {
+  'use strict';
+
   var urls;//%%URLS%% // this will be replaced with a real URL list.
 
   function url(hash) {
