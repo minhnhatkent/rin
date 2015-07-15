@@ -1,0 +1,15 @@
+{
+  "name": "rin",
+  "version": "0.0.1",
+  "description": "A personal URL shortener using GitHub Pages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noraesae/rin.git"
+  },
+  "author": "Hyunje Alex Jun <me@noraesae.net> (http://noraesae.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noraesae/rin/issues"
+  },
+  "homepage": "https://github.com/noraesae/rin"
+}
