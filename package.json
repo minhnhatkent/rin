@@ -11,5 +11,9 @@
   "bugs": {
     "url": "https://github.com/noraesae/rin/issues"
   },
-  "homepage": "https://github.com/noraesae/rin"
+  "homepage": "https://github.com/noraesae/rin",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "rimraf": "^2.4.1"
+  }
 }

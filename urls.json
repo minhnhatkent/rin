@@ -1,0 +1,12 @@
+[
+  {
+    "name": "gg",
+    "description": "Google",
+    "url": "https://google.com"
+  },
+  {
+    "name": "amz",
+    "description": "Amazon",
+    "url": "https://amazon.com"
+  }
+]

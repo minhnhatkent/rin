@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    title rin
+    link(rel='stylesheet', href='./build.css')
+    script(src='./build.js')
+  body
+    h1 rin
+    ul
+      each item in urls
+        li
+          div
+            a.name(href='##{item.name}') ##{item.name}
+            a.url(href='#{item.url}')= item.url
+          div.description= item.description
