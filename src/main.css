@@ -22,12 +22,14 @@ ul li {
   margin: 5px 0;
 }
 ul li a.hash {
-  font-size: 17px;
-  margin-right: 5px;
   font-weight: normal;
+}
+ul li span.arrow {
+  margin: 0 10px;
 }
 ul li span.description {
   color: #AAAAAA;
+  margin-left: 10px;
 }
 
 footer p {
